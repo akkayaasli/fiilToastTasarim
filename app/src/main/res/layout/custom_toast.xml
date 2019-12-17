@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:src="@drawable/right_directions" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/bree_serif"
+
+        android:gravity="center" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:src="@drawable/right_directions" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/bree_serif"
+
+        android:gravity="center" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:src="@drawable/right_directions" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/bree_serif"
+
+        android:gravity="center" />
+
+
+
+
+</LinearLayout>

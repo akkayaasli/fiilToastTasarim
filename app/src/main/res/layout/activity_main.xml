@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="LOGIN-sag"
+        android:textColor="#ffeaa7"
+        android:textStyle="bold"
+        android:background="#e17055"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnCustom2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="LOGIN-sol"
+        android:textColor="#ffeaa7"
+        android:textStyle="bold"
+        android:background="#e17055"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnCustom3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="LOGIN-yukarı"
+        android:textColor="#ffeaa7"
+        android:textStyle="bold"
+        android:background="#e17055"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
